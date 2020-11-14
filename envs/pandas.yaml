@@ -1,0 +1,5 @@
+name: pandas
+dependencies:
+  - ipykernel
+  - pandas
+  - python=3.7
