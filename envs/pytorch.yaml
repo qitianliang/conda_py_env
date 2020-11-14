@@ -1,0 +1,11 @@
+name: pytorch1
+channels:
+  - pytorch
+dependencies:
+  - python=3.7
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - tqdm
+    - tensorboardX
