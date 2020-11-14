@@ -9,7 +9,7 @@ for env_file in envs/*.yaml; do
     conda activate ${env_name}
     python -m ipykernel install --user --name ${env_name} --display-name "${env_name}"
 done
-conda install -y jupyterlab
+# conda install -y jupyterlab
 # ip=0.0.0.0
 # port=10001
 # jupyter lab --allow-root --ip ${ip} --port ${port}
