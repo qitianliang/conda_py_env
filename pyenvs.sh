@@ -6,6 +6,7 @@ rm miniconda.sh
 echo ". ~/miniconda/etc/profile.d/conda.sh" >> ~/.bashrc
 source ~/.bashrc
 # change directory into envs folder
+cd conda_py_env
 for env_file in envs/*.yaml; do
     echo conda create from ${env_file}
     conda env create -f "${env_file}"
